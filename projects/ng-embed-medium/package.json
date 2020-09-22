@@ -1,0 +1,23 @@
+{
+  "name": "ng-embed-medium",
+  "version": "1.0.2",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "rss-to-json": "^1.0.5"
+  },
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "rss",
+    "medium"
+  ],
+  "description": "Embed Medium",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Nosowsky",
+  "license": "ISC"
+}
