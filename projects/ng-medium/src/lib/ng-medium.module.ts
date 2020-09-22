@@ -8,4 +8,4 @@ import { BrowserModule } from "@angular/platform-browser";
   imports: [BrowserModule, HttpClientModule],
   exports: [NgMediumFeedComponent]
 })
-export class NgMediumModule {}
+export class NgEmbedMediumModule {}

@@ -27,7 +27,6 @@ export class NgMediumFeedComponent {
   }
 
   feed: Feed;
-  final_title: string = '';
 
   constructor(private service: NgMediumService) {
     this._styles = this.appendDefaultStyles(null);
@@ -35,9 +34,7 @@ export class NgMediumFeedComponent {
 
   private fetchFeed(url: string): void {
     this.service.fetchFeed(url).then(
-      res => {this.feed = res
-              this.final_title = this.feed.title.slice(0, -9)
-        },
+      res => {this.feed = res},
       err => this.errorStream.emit(err)
     );
   }
